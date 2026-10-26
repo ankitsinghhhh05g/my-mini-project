@@ -1,0 +1,20 @@
+:root { --ink:#15223a; --brand:#4f46e5; --brand-deep:#3730a3; --mist:#f5f7ff; --mint:#ddf8eb; }
+body { color:var(--ink); background:#fbfcff; min-height:100vh; }
+.app-nav { background:linear-gradient(100deg,#111c3d,#4f46e5); box-shadow:0 3px 18px #17255426; }
+.navbar-brand { letter-spacing:-.4px; } .brand-dot { color:#a5f3fc; }
+.hero { background:radial-gradient(circle at 85% 15%,#8bdbff66,transparent 27%),linear-gradient(125deg,#172554 0%,#4f46e5 57%,#6366f1 100%); color:white; border-radius:0 0 36px 36px; }
+.hero h1 { font-weight:800; letter-spacing:-1.4px; } .hero .lead { max-width:620px; color:#e0e7ff; }
+.hero-card { background:#ffffff16; border:1px solid #ffffff36; backdrop-filter:blur(8px); border-radius:16px; }
+.section-title { font-weight:750; letter-spacing:-.5px; }
+.feature-icon,.stat-icon { display:grid; place-items:center; height:48px; width:48px; border-radius:14px; font-size:1.35rem; background:#e0e7ff; }
+.card { border:1px solid #e9ecf5; border-radius:16px; box-shadow:0 7px 22px #18214b0a; }
+.card-hover { transition:transform .18s,box-shadow .18s; } .card-hover:hover { transform:translateY(-3px); box-shadow:0 12px 28px #18214b16; }
+.btn-primary { background:var(--brand); border-color:var(--brand); } .btn-primary:hover { background:var(--brand-deep); border-color:var(--brand-deep); }
+.metric { font-weight:800; font-size:1.85rem; letter-spacing:-1px; } .metric-label { color:#64748b; font-size:.87rem; }
+.progress { height:9px; border-radius:20px; } .progress-bar { background:linear-gradient(90deg,#4f46e5,#818cf8); }
+.course-card .badge { font-weight:600; }.course-title { min-height:48px; }
+.auth-wrap { max-width:480px; margin:4rem auto; }.form-control,.form-select { border-radius:10px; padding:.66rem .8rem; border-color:#dbe1ef; }.form-control:focus,.form-select:focus { border-color:#818cf8; box-shadow:0 0 0 .2rem #818cf833; }
+.soft-panel { background:var(--mist); border:1px solid #e5e9ff; }.skill-pill { color:#3730a3; background:#e0e7ff; font-weight:600; }.status-completed { color:#047857; background:#d1fae5; }.status-started { color:#1d4ed8; background:#dbeafe; }.status-saved { color:#92400e; background:#fef3c7; }
+.assessment-option { cursor:pointer; transition:border-color .15s,background .15s; }.assessment-option:hover { border-color:#818cf8; background:#f8f9ff; }
+.table > :not(caption) > * > * { padding:.85rem .75rem; }
+@media (max-width: 767.98px) { .hero { border-radius:0 0 24px 24px; }.hero h1 { font-size:2.2rem; } }
